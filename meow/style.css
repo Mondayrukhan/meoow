@@ -1,0 +1,98 @@
+html,body{
+    width: 100%;
+    height: 3000px;
+    margin: 0;
+    padding: 0;
+    /* overflow: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.boxes{
+    top: 0;
+    height: 100%;
+    width: 1040px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#whitebox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#blackbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#whitebox{
+    width: 80px;
+    background-color: white;
+    color: black;
+    position: sticky;
+    top: 0;
+    object-fit:cover;
+
+}
+#blackbox{
+    width: 80px;
+    background-color: black;
+    color: beige;
+    position: sticky;
+    top: 0;
+    object-fit:cover;
+}
+.white1_1, .white1_13 {
+    height: 720px;
+
+
+}
+.white1_2, .white1_12{
+    height: 720px;
+}
+.white1_3,.white1_11 {
+    height: 720px;
+}
+.black1_4,.black1_5,.black1_6,.black1_7,.black1_8,.black1_9,.black1_10 {
+    height: 720px; 
+}
+
+
+.black2_1{
+    height: 560px;
+}
+.black2_2{
+    height: 560px;
+}
+.black2_3{
+    height: 640px;
+}
+.white2_5{
+    height: 640px;
+}
+
+.white3_1{
+    height: 480px;
+
+}
+.white3_2{
+    height: 160px;
+    
+}
+.black3_1{
+    height: 240px;
+    
+}
+.black3_2{
+    height: 200px;
+}
+.black3_4{
+    height: 560px;
+    
+}
